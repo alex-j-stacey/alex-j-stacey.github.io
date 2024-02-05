@@ -1,0 +1,50 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d3d3d3;
+}
+
+header {
+    background-color: rgb(29, 29, 29);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #616161;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    transition: color 0.3s ease; 
+}
+
+nav a:hover {
+    color: #ffa600; 
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #616161;
+    color: #fff;
+    text-align: center;
+    clear: both;
+    padding: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+
