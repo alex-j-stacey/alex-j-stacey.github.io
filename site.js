@@ -10,4 +10,6 @@ if (isMorning) { welcome.textContent = 'Good Morning,' }
 else if (isAfternoon) { welcome.textContent = 'Good Afternoon,' }
 else {welcome.textContent = 'Good Evening,'}
 
+localStorage.setItem("It's a secret to everybody.", "I am NOT error.")
+const sm = localStorage.getItem("It's a secret to everybody.")
 
